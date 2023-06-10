@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+body{
+    background: rgb(38, 157, 221);
+    background: linear-gradient(90deg, #606c88 0%,#3f4c6b 100%);
+    height: 629px;
+    
+
+}
+.header{
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header h1{
+    padding: 15px;
+    color: #fff;
+
+}
+.nav{
+    
+    padding-top: 25px;
+}
+.nav a:first-child{
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2adb;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.nav a:last-child{
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    border-radius: 5px 5px 5px 5px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.section .text{
+    margin: 15% 40px; 
+    color: #fff;
+    letter-spacing: 2px;
+    
+
+
+}
+.section .text h1{
+    font-size: 40px;
+
+}
+.section .text p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.section .text button{
+    margin-top: 10px;
+    background-color: #fff;
+    width:140px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 18px;
+    color: #2d2adb;
+    position: relative;
+    font-weight: 600;
+     
+}
+
+.section .image img{
+    width: 570px;
+    margin-left: 20px;
+}
+.section .text button:hover{
+    
+    background-color: #2d2adb;
+    
+}
+.section .text  button a:hover{
+    color: white;
+   
+    
+}
+@media screen and (max-width : 1000px) {
+
+    .section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+}
+@media screen and (max-width : 600px) {
+
+    .section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+}
